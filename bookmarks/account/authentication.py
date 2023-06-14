@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 
-from bookmarks.account.models import Profile
+from .models import Profile
 
 
 class EmailAuthBackend:
